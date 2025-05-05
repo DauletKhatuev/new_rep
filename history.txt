@@ -1,0 +1,38 @@
+   31  git config --global DauletKhatuev.name "Khatuev Daulet"
+   32  git config --global DauletKhatuev.email "Vincentmo396@
+   33  git config --global DauletKhatuev.email "Vincentmo396@gmail.com"
+   34  git clone https://github.com/DauletKhatuev/git_intro.git
+   36  git clone https://github.com/DauletKhatuev/git_intro.git /Users/vince/Desktop/Git
+   37  git clone https://github.com/DauletKhatuev/git_intro.git /Users/vince/Desktop
+   38  git branch git-branch
+   40  git switch -c git-branch
+   41  git checkout -b git-branch
+   43  git init
+   44  git branch -M main
+   45  git switch -c git-branch
+   46  git branch
+   47  git branch -a
+   48  git checkout main
+   49  git status
+   50  git@github.com:DauletKhatuev/new_rep.git
+   51  git clone git@github.com:DauletKhatuev/new_rep.git
+   53  git switch -c feature
+   54  git branch
+   56  git branch
+   57  git switch -c feature
+   58  git branch
+   59  git pull
+   60  git switch main
+   61  git pull
+   62  git push
+   63  git switch feature
+   64  git push
+   65  git push --set-upstream origin feature
+   66  git status
+   67  git commit --amend
+   68  git status
+   69  git commit --amend -m "Amend"
+   70  git switch main
+   71  git merge feature
+   72  git branch
+   73  history | grep "git" > history.txt 
